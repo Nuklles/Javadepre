@@ -12,10 +12,10 @@ public class teste2 {
 	    int [] ímpares = new int [5];
 	    
 	    ímpares [0] = 1;
-	    ímpares [2] = 3;
-	    ímpares [3] = 5;
-	    ímpares [4] = 7;
-	    ímpares [5] = 9;
+	    ímpares [1] = 3;
+	    ímpares [2] = 5;
+	    ímpares [3] = 7;
+	    ímpares [4] = 9;
 
 	System.out.println(" o valor da posição é :" + ímpares[1]);
 	
