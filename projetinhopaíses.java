@@ -25,4 +25,15 @@ public class teste2 {
 	
     System.out.println("o tamanho do array :" + Arrays.toString(países));
 	
+	//pesquisa dentro de um arrays
+	
+    //Arrays.binarySearch(países, "Russia")
+    
+    System.out.println(Arrays.binarySearch(países, "Russia"));
+    
+    //ordenação de arrays 
+    
+    //Arrays.sort(países, 0, paises.lenght);
+    //System.out.println(""+Arrays.sort(países, 0, paises.lenght());
+    
 	
