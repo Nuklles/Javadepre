@@ -13,7 +13,7 @@ public class HipopotamoTest {
 		hipopotamo.dormir();
 
 		System.out.println("O meu hipopotamo pesa " + hipopotamo.getPeso() 
-		+ " e é da cor" + hipopotamo.getCor());
+		+ " e é da cor " + hipopotamo.getCor());
 
 	}
 
