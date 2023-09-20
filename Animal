@@ -6,11 +6,6 @@ public class Animal {
 	private int altura;
 	private String cor;
 
-	public void comer() {
-		System.out.println("Sou oniviro, como tudo!");
-
-	}
-
 	public int getPeso() {
 		return peso;
 	}
@@ -33,6 +28,11 @@ public class Animal {
 
 	public void setCor(String cor) {
 		this.cor = cor;
+	}
+
+	public void comer() {
+		System.out.println("Sou oniviro, como tudo!");
+
 	}
 
 	public void dormir() {
