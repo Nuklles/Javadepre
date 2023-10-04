@@ -12,6 +12,13 @@ public class ifelse {
 			System.out.println("x é maior que 10");
 		}
 
+		int nota = 8;
+		if (nota >= 6.0) {
+			System.out.println("Aprovado");			
+		} else { 
+			System.out.println("Reprovado");
+		}
+	
 	}
 
 }
