@@ -1,0 +1,21 @@
+package projeto;
+
+public class projetojava {
+
+	public static void main(String[] args) {
+
+		System.out.println("Feito");
+		System.out.println("Muito chato digitar");
+
+		int idade;
+		int outraIdade;
+		
+		idade = 12;
+		outraIdade = 25;
+		
+		idade = outraIdade;
+		System.out.println(idade);
+				
+	}
+
+}
