@@ -1,0 +1,24 @@
+package projeto;
+
+public class notatotal {
+
+	public static void main(String[] args) {
+
+		int nota = 5;
+		if (nota >= 9.0) {
+			System.out.println("Bom resultado");
+		} else {
+			if (nota >= 8.0) {
+				System.out.println("Parabéns");
+			} else {
+				if (nota >= 6.0) {
+					System.out.println("Passou se arrastando");
+				} else {
+					System.out.println("Reprovado");
+				}
+			}
+		}
+
+	}
+
+}
