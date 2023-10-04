@@ -1,0 +1,28 @@
+package projeto;
+
+public class gastoempresa {
+
+	public static void main(String[] args) {
+
+		System.out.println("Total de gastos de Janeiro 15 mil");
+		System.out.println("Total de gastos de Fevereiro 23 mil");
+		System.out.println("Total de gastos de Março 17 mil");
+
+		int x, y, z;
+
+		x = 15000;
+		y = 23000;
+		z = 17000;
+
+		int total = x + y + z;
+
+		if (total < 50000) {
+			System.out.println("Ainda estamos na média de gastos, não estouramos o orçamento");
+		} else {
+			System.out.println("O valor gasto até o momento foi de: " + total);
+			System.out.println("Houve estouro no orçamento");
+		}
+	}
+	
+
+}
