@@ -21,9 +21,11 @@ public class usoswing {
 
 	public static void main(String[] args) {
 		
-		String x = JOptionPane.showInputDialog("Dígite um número");
-
-		if ( < 10) {
+		String x;
+		x = JOptionPane.showInputDialog("Dígite um número");
+        int c = Integer.parseInt(x);
+            
+		if (c < 10) {
 	        JOptionPane.showMessageDialog(null, "Valor dígitado é menor que " + x);
 		} else {
 	        JOptionPane.showMessageDialog(null, "Valor dígitado é maior que " + x);
