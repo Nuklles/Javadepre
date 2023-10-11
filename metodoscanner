@@ -1,16 +1,12 @@
 package projeto;
 
-import java.util.Scanner;
+import javax.swing.JOptionPane;
 
-public class metodoscanner {
+public class swing {
 
 	public static void main(String[] args) {
-
-		int valor;
-		Scanner teclado;
-		teclado = new Scanner(System.in);
-		valor = teclado.nextInt();
-		System.out.println("Valor lido: " + valor);
+		String texto = JOptionPane.showInputDialog("Dígite um número");
+        JOptionPane.showMessageDialog(null, "Valor dígitado: " + texto);
 	}
 
 }
