@@ -1,0 +1,22 @@
+package projeto;
+
+import java.util.Scanner;
+
+public class adivinhacao {
+
+	public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+		int valor = 4;
+
+		System.out.println("Descubra o valor entre 0 a 10," + " mas tem que ser de acordo com o que eu quero");
+        System.out.println("Digite o valor");
+		valor = sc.nextInt();
+
+		if (valor != 4) {
+			System.out.println("Você acertou, esse é o número que escolhi!");
+		} else
+			System.out.println("Você errou o número, não escolhi esse número!");
+
+	}
+}
