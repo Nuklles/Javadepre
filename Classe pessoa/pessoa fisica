@@ -1,0 +1,103 @@
+public class pessoafisica extends Pessoa {
+
+	private int numerorg;
+	private int numerocpf;
+	private String altura;
+	private String cor;
+	private String raca;
+	private String opcaosexual;
+	private int cnh;
+	private String estadocivil;
+	private String filhos;
+	private String nomemae;
+	private String nomepai;
+
+	public int getNumerorg() {
+		return numerorg;
+	}
+
+	public void setNumerorg(int numerorg) {
+		this.numerorg = numerorg;
+	}
+
+	public int getNumerocpf() {
+		return numerocpf;
+	}
+
+	public void setNumerocpf(int numerocpf) {
+		this.numerocpf = numerocpf;
+	}
+
+	public String getAltura() {
+		return altura;
+	}
+
+	public void setAltura(String altura) {
+		this.altura = altura;
+	}
+
+	public String getCor() {
+		return cor;
+	}
+
+	public void setCor(String cor) {
+		this.cor = cor;
+	}
+
+	public String getRaca() {
+		return raca;
+	}
+
+	public void setRaca(String raca) {
+		this.raca = raca;
+	}
+
+	public String getOpcaosexual() {
+		return opcaosexual;
+	}
+
+	public void setOpcaosexual(String opcaosexual) {
+		this.opcaosexual = opcaosexual;
+	}
+
+	public int getCnh() {
+		return cnh;
+	}
+
+	public void setCnh(int cnh) {
+		this.cnh = cnh;
+	}
+
+	public String getEstadocivil() {
+		return estadocivil;
+	}
+
+	public void setEstadocivil(String estadocivil) {
+		this.estadocivil = estadocivil;
+	}
+
+	public String getFilhos() {
+		return filhos;
+	}
+
+	public void setFilhos(String filhos) {
+		this.filhos = filhos;
+	}
+
+	public String getNomemae() {
+		return nomemae;
+	}
+
+	public void setNomemae(String nomemae) {
+		this.nomemae = nomemae;
+	}
+
+	public String getNomepai() {
+		return nomepai;
+	}
+
+	public void setNomepai(String nomepai) {
+		this.nomepai = nomepai;
+	}
+
+}
