@@ -1,0 +1,49 @@
+public class pessoajuridica extends Pessoa {
+
+	private int cnpj;
+	private String razaosocial;
+	private int IM;
+	private int IE;
+	private int capitalsocial;
+
+	public int getCnpj() {
+		return cnpj;
+	}
+
+	public void setCnpj(int cnpj) {
+		this.cnpj = cnpj;
+	}
+
+	public String getRazaosocial() {
+		return razaosocial;
+	}
+
+	public void setRazaosocial(String razaosocial) {
+		this.razaosocial = razaosocial;
+	}
+
+	public int getIM() {
+		return IM;
+	}
+
+	public void setIM(int iM) {
+		IM = iM;
+	}
+
+	public int getIE() {
+		return IE;
+	}
+
+	public void setIE(int iE) {
+		IE = iE;
+	}
+
+	public int getCapitalsocial() {
+		return capitalsocial;
+	}
+
+	public void setCapitalsocial(int capitalsocial) {
+		this.capitalsocial = capitalsocial;
+	}
+
+}
