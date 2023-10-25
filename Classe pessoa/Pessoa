@@ -1,0 +1,85 @@
+public class Pessoa {
+
+	private int ID;
+	private String nome;
+	private String endereco;
+	private int telefone;
+	private String email;
+	private String redesocial;
+	private int cep;
+	private int numerocasa;
+	private String casaouap;
+
+	public int getID() {
+		return ID;
+	}
+
+	public void setID(int iD) {
+		ID = iD;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getEndereco() {
+		return endereco;
+	}
+
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
+
+	public int getTelefone() {
+		return telefone;
+	}
+
+	public void setTelefone(int telefone) {
+		this.telefone = telefone;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getRedesocial() {
+		return redesocial;
+	}
+
+	public void setRedesocial(String redesocial) {
+		this.redesocial = redesocial;
+	}
+
+	public int getCep() {
+		return cep;
+	}
+
+	public void setCep(int cep) {
+		this.cep = cep;
+	}
+
+	public int getNumerocasa() {
+		return numerocasa;
+	}
+
+	public void setNumerocasa(int numerocasa) {
+		this.numerocasa = numerocasa;
+	}
+
+	public String getCasaouap() {
+		return casaouap;
+	}
+
+	public void setCasaouap(String casaouap) {
+		this.casaouap = casaouap;
+	}
+
+}
