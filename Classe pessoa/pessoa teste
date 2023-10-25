@@ -6,7 +6,14 @@ public class pessoateste {
 		pessoajuridica pj = new pessoajuridica();
 
 		pj.setID(12);
-		System.out.println(pj.getID());
+		System.out.println("Seu id é " + pj.getID());
+
+		pj.setNome("Alan");
+		System.out.println("Seu nome é " + pj.getNome() + " e você é um cliente PJ");
+
+		pj.setEndereco("La ele");
+		System.out.println("Mora em: " + pj.getEndereco());
+	
 	}
 
 }
