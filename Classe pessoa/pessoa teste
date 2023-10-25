@@ -1,0 +1,12 @@
+
+public class pessoateste {
+
+	public static void main(String[] args) {
+
+		pessoajuridica pj = new pessoajuridica();
+
+		pj.setID(12);
+		System.out.println(pj.getID());
+	}
+
+}
